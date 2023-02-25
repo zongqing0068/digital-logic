@@ -1,0 +1,227 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Nov 29 10:19:56 2021
+| Host         : 614-10 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file led_display_ctrl_methodology_drc_routed.rpt -pb led_display_ctrl_methodology_drc_routed.pb -rpx led_display_ctrl_methodology_drc_routed.rpx
+| Design       : led_display_ctrl
+| Device       : xc7a100tfgg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 38
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 14         |
+| TIMING-18 | Warning  | Missing input or output delay | 17         |
+| TIMING-20 | Warning  | Non-clocked latch             | 7          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell led_ca_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_ca_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell led_ca_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_ca_reg_C/CLR, led_ca_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell led_cb_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cb_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell led_cb_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cb_reg_C/CLR, led_cb_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#5 Warning
+LUT drives async reset alert  
+LUT cell led_cc_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cc_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#6 Warning
+LUT drives async reset alert  
+LUT cell led_cc_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cc_reg_C/CLR, led_cc_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#7 Warning
+LUT drives async reset alert  
+LUT cell led_cd_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cd_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#8 Warning
+LUT drives async reset alert  
+LUT cell led_cd_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cd_reg_C/CLR, led_cd_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#9 Warning
+LUT drives async reset alert  
+LUT cell led_ce_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_ce_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#10 Warning
+LUT drives async reset alert  
+LUT cell led_ce_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_ce_reg_C/CLR, led_ce_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#11 Warning
+LUT drives async reset alert  
+LUT cell led_cf_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cf_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#12 Warning
+LUT drives async reset alert  
+LUT cell led_cf_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cf_reg_C/CLR, led_cf_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#13 Warning
+LUT drives async reset alert  
+LUT cell led_cg_reg_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cg_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#14 Warning
+LUT drives async reset alert  
+LUT cell led_cg_reg_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) led_cg_reg_C/CLR, led_cg_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on button relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on rst relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on led_ca relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on led_cb relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on led_cc relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on led_cd relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on led_ce relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on led_cf relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on led_cg relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on led_en[0] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on led_en[1] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on led_en[2] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on led_en[3] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on led_en[4] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on led_en[5] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on led_en[6] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on led_en[7] relative to clock(s) clk
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch led_ca_reg_LDC cannot be properly analyzed as its control pin led_ca_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch led_cb_reg_LDC cannot be properly analyzed as its control pin led_cb_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch led_cc_reg_LDC cannot be properly analyzed as its control pin led_cc_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch led_cd_reg_LDC cannot be properly analyzed as its control pin led_cd_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch led_ce_reg_LDC cannot be properly analyzed as its control pin led_ce_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch led_cf_reg_LDC cannot be properly analyzed as its control pin led_cf_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch led_cg_reg_LDC cannot be properly analyzed as its control pin led_cg_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+

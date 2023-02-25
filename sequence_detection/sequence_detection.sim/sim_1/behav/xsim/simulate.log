@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+index 7 finished
+====================================
+Test end!
+----PASS!!!
+$finish called at time : 1165 ns : File "D:/sequence_detection/testbench.v" Line 89

@@ -1,0 +1,93 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Nov 29 10:19:23 2021
+| Host         : 614-10 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file led_display_ctrl_control_sets_placed.rpt
+| Design       : led_display_ctrl
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    27 |
+| Unused register locations in slices containing registers |   161 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           22 |
+|      4 |            1 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            2 |
+| No           | No                    | Yes                    |              14 |           14 |
+| No           | Yes                   | No                     |               7 |            7 |
+| Yes          | No                    | No                     |              64 |           12 |
+| Yes          | No                    | Yes                    |              17 |            5 |
+| Yes          | Yes                   | No                     |              61 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+--------------------+------------------------+------------------+----------------+
+|       Clock Signal      |    Enable Signal   |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++-------------------------+--------------------+------------------------+------------------+----------------+
+|  led_ce_reg_LDC_i_1_n_0 |                    | led_ce_reg_LDC_i_2_n_0 |                1 |              1 |
+|  led_cb_reg_LDC_i_1_n_0 |                    | led_cb_reg_LDC_i_2_n_0 |                1 |              1 |
+|  led_cc_reg_LDC_i_1_n_0 |                    | led_cc_reg_LDC_i_2_n_0 |                1 |              1 |
+|  led_ca_reg_LDC_i_1_n_0 |                    | led_ca_reg_LDC_i_2_n_0 |                1 |              1 |
+|  led_cd_reg_LDC_i_1_n_0 |                    | led_cd_reg_LDC_i_2_n_0 |                1 |              1 |
+|  led_cf_reg_LDC_i_1_n_0 |                    | led_cf_reg_LDC_i_2_n_0 |                1 |              1 |
+|  led_cg_reg_LDC_i_1_n_0 |                    | led_cg_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cf_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_ce_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cb_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cb_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_ca_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cc_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cd_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_ce_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cc_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_ca_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cd_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cf_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cg_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          |                    | led_cg_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG          | button_IBUF        | rst_IBUF               |                1 |              1 |
+|  clk_IBUF_BUFG          |                    |                        |                2 |              4 |
+|  clk_IBUF_BUFG          | led_en[7]_i_1_n_0  | rst_IBUF               |                4 |             16 |
+|  clk_IBUF_BUFG          | switch[31]_i_2_n_0 | switch[31]_i_1_n_0     |                7 |             29 |
+|  clk_IBUF_BUFG          | now_time2          | now_time1              |                7 |             32 |
+|  clk_IBUF_BUFG          | ena                |                        |               12 |             64 |
++-------------------------+--------------------+------------------------+------------------+----------------+
+
+

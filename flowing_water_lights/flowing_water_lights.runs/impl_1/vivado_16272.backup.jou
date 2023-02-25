@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov  8 14:34:54 2021
+# Process ID: 16272
+# Current directory: D:/flowing_water_lights/flowing_water_lights.runs/impl_1
+# Command line: vivado.exe -log flowing_water_lights.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source flowing_water_lights.tcl -notrace
+# Log file: D:/flowing_water_lights/flowing_water_lights.runs/impl_1/flowing_water_lights.vdi
+# Journal file: D:/flowing_water_lights/flowing_water_lights.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source flowing_water_lights.tcl -notrace

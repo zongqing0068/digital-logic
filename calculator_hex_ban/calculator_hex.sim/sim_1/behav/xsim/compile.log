@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/calculator_hex/calculator_hex.srcs/sources_1/ip/clk_div/clk_div_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/calculator_hex/calculator_hex.srcs/sources_1/ip/clk_div/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/calculator_hex/calculator_hex.srcs/sources_1/new/calculator_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculator_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/calculator_hex/calculator_hex.srcs/sources_1/new/calculator_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculator_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/calculator_hex/calculator_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculator_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/calculator_hex/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

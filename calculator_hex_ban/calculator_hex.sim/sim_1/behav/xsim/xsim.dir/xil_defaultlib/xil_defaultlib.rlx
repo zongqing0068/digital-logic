@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/calculator_hex/calculator_hex.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/calculator_hex/calculator_hex.srcs/sources_1/ip/clk_div/clk_div.v,1639363935,verilog,,D:/calculator_hex/calculator_hex.srcs/sources_1/new/calculator_display.v,,clk_div,,,../../../../calculator_hex.srcs/sources_1/ip/clk_div,,,,,
+D:/calculator_hex/calculator_hex.srcs/sources_1/ip/clk_div/clk_div_clk_wiz.v,1639363934,verilog,,D:/calculator_hex/calculator_hex.srcs/sources_1/ip/clk_div/clk_div.v,,clk_div_clk_wiz,,,../../../../calculator_hex.srcs/sources_1/ip/clk_div,,,,,
+D:/calculator_hex/calculator_hex.srcs/sources_1/new/calculator_display.v,1639394164,verilog,,D:/calculator_hex/calculator_hex.srcs/sources_1/new/calculator_hex.v,,calculator_display,,,../../../../calculator_hex.srcs/sources_1/ip/clk_div,,,,,
+D:/calculator_hex/calculator_hex.srcs/sources_1/new/calculator_hex.v,1639388660,verilog,,D:/calculator_hex/calculator_top.v,,calculator_hex,,,../../../../calculator_hex.srcs/sources_1/ip/clk_div,,,,,
+,,,,,,,,,,,,,,
+D:/calculator_hex/calculator_top.v,1639370363,verilog,,D:/calculator_hex/testbench.v,,calculator_top,,,../../../../calculator_hex.srcs/sources_1/ip/clk_div,,,,,
+D:/calculator_hex/testbench.v,1639380811,verilog,,,,testbench,,,../../../../calculator_hex.srcs/sources_1/ip/clk_div,,,,,

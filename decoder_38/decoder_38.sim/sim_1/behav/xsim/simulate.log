@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+index 3 finished
+====================================
+Test end!
+----PASS!!!
+$finish called at time : 525 ns : File "D:/decoder_38/testbench.v" Line 95

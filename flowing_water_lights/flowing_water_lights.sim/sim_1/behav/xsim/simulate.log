@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+index 6 finished
+====================================
+Test end!
+----PASS!!!
+$finish called at time : 1005 ns : File "C:/Users/Administrator/Desktop/flowing_water_lights/testbench.v" Line 70

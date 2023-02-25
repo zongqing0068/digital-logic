@@ -1,0 +1,22 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+wrong at index 0
+=====================================
+Test end!
+----FAIL!!!
+function    : 0
+num1        : 06
+num2        : 04
+reference   : 0000000a
+test module : 00000000
+$finish called at time : 8095 ns : File "D:/calculator_hex/testbench.v" Line 161
+wrong at index 0
+=====================================
+Test end!
+----FAIL!!!
+function    : 0
+num1        : 06
+num2        : 04
+reference   : 0000000a
+test module : 00000000
+$finish called at time : 8195 ns : File "D:/calculator_hex/testbench.v" Line 161

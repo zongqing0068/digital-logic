@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov  1 12:23:10 2021
+# Process ID: 12016
+# Current directory: D:/decoder_38
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9908 D:\decoder_38\decoder_38.xpr
+# Log file: D:/decoder_38/vivado.log
+# Journal file: D:/decoder_38\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/decoder_38/decoder_38.xpr
+update_compile_order -fileset sources_1

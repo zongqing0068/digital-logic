@@ -1,0 +1,17 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+led_c*/led_dp signal wrong at index 00000006
+=====================================
+Test end!
+----FAIL!!!
+$finish called at time : 105 ns : File "F:/led_display_ctrl/testbench.v" Line 112
+led_c*/led_dp signal wrong at index 00000007
+=====================================
+Test end!
+----FAIL!!!
+$finish called at time : 115 ns : File "F:/led_display_ctrl/testbench.v" Line 112
+index 0000fffe finished
+====================================
+Test end!
+----PASS!!!
+$finish called at time : 655385 ns : File "F:/led_display_ctrl/testbench.v" Line 97

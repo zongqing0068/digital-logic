@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov  1 11:29:47 2021
+# Process ID: 10756
+# Current directory: D:/decoder_38
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8152 D:\decoder_38\decoder_38.xpr
+# Log file: D:/decoder_38/vivado.log
+# Journal file: D:/decoder_38\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/decoder_38/decoder_38.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_38
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:15]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:16]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:17]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:18]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:19]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:20]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:21]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v:22]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d12c224356464e54acfae96db31a9e36 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v" Line 1. Module decoder_38 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder_38
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+wrong at index 0
+=====================================
+Test end!
+----FAIL!!!
+reference   : fb
+test module : 63
+$finish called at time : 85 ns : File "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/testbench.v" Line 105
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 786.004 ; gain = 20.578
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_38
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d12c224356464e54acfae96db31a9e36 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/decoder_38.v" Line 1. Module decoder_38 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder_38
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/decoder_38/decoder_38.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+index 3 finished
+====================================
+Test end!
+----PASS!!!
+$finish called at time : 525 ns : File "D:/diglogic-2021/pkg/实验1 3-8译码器实现/decoder_38/testbench.v" Line 95
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+file mkdir D:/decoder_38/decoder_38.srcs/constrs_1
+add_files -fileset constrs_1 -norecurse {D:/decoder_38/clock.xdc D:/decoder_38/pin.xdc}
+launch_runs synth_1 -jobs 6
+[Mon Nov  1 12:08:03 2021] Launched synth_1...
+Run output will be captured here: D:/decoder_38/decoder_38.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Nov  1 12:09:55 2021] Launched synth_1...
+Run output will be captured here: D:/decoder_38/decoder_38.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Nov  1 12:10:16 2021] Launched synth_1...
+Run output will be captured here: D:/decoder_38/decoder_38.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Nov  1 12:21:45 2021] Launched synth_1...
+Run output will be captured here: D:/decoder_38/decoder_38.runs/synth_1/runme.log
+save_wave_config {D:/decoder_38/testbench_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/decoder_38/testbench_behav.wcfg
+set_property xsim.view D:/decoder_38/testbench_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  1 12:22:57 2021...

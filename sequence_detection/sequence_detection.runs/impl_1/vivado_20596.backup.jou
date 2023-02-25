@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Dec  6 11:59:58 2021
+# Process ID: 20596
+# Current directory: D:/sequence_detection/sequence_detection.runs/impl_1
+# Command line: vivado.exe -log sequence_detection.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sequence_detection.tcl -notrace
+# Log file: D:/sequence_detection/sequence_detection.runs/impl_1/sequence_detection.vdi
+# Journal file: D:/sequence_detection/sequence_detection.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sequence_detection.tcl -notrace
